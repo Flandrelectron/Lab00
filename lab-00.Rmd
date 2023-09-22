@@ -17,11 +17,11 @@ We set up the data frame. Edit the data below to include information about your 
 
 ```{r setup-tibble}
 team_data <- tibble(
-  name = c("Wayne Wang"),
-  github_username = c("Flandrelectron"), 
-  colour = c("Black"),
-  hobby = c("Video game"),
-  favourite_number = c(6)
+  name = c("Wayne Wang", "James"),
+  github_username = c("Flandrelectron", "James114Jin"), 
+  colour = c("Black", "Black"),
+  hobby = c("Video game", "Video game"),
+  favourite_number = c(6, 7)
   )
 
 team_data
